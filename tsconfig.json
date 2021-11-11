@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"], //adiciona algumas funcionalidades, explica que estamos lidando com a dom, por ex
+    "allowJs": true, // permite ter arquivos com JS e TSC
+    "jsx": "react-jsx", // avisa que estamos usando JSX
+    "noEmit": true,
+    "strict": true, // modo strict do JS
+    "moduleResolution": "node",
+    "resolveJsonModule": true, // importar arquivos json
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"] // informa onde nosso código está
+}
